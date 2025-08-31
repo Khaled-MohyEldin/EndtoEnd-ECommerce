@@ -27,8 +27,30 @@ cd EndtoEnd-ECommerce
 
 
 2- Install dependencies: 
+    mvn clean install
 
-mvn clean install
+    
+⚙️ Running Test Profiles
+This project uses Maven profiles to run different test suites. This allows you to selectively execute tests based on your needs, such as a full regression suite or a quick validation run.
+
+Regression Profile: Use this profile to run the complete suite of regression tests.
+
+Bash
+
+mvn test -PRegression
+Validation Profile: This profile is for a specific set of validation tests. Note that these tests are designed to deliberately fail to showcase certain scenarios.
+
+Bash
+
+mvn test -PValidation
+
+🚀 What's Next
+Here's a look at the future plans for this project:
+
+Expand Negative Test Scenarios: We will add more negative tests and create dedicated profiles to validate a wider range of failure conditions.
+
+Integrate API Testing: We plan to add API tests to verify that orders and other critical data are correctly registered in the backend database.
+
 
 📊 Allure Reporting
 This project uses Allure Report to generate comprehensive, interactive test reports. Allure provides a clear overview of test execution, including pass/fail rates, detailed steps for each test, and screenshots on failure.
