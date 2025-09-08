@@ -1,1 +1,0 @@
-{"uuid":"84bdab20-d72c-4695-90bf-e82c3764e6b3","name":"TestComp.BaseTest.launchApp","children":["5976db73-6b5d-43d0-9f28-343297bfef0b"],"description":"","befores":[{"name":"launchApp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1756545562413,"stop":1756545569244}],"afters":[],"start":1756545562412,"stop":1756545569244}

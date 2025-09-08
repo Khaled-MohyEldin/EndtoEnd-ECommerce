@@ -1,0 +1,3 @@
+https://rahulshettyacademy.com/rs_admin/public/images/courses/cypress-modern-automation-testing-from-scratch-framework_1609261074_azure.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)
+https://rahulshettyacademy.com/rs_admin/public/images/courses/selenium-webdriver-with-java-basics-advanced-interview-guide_1591014934_selenium.jpg - Failed to load resource: the server responded with a status of 404 (Not Found)
+https://rahulshettyacademy.com/angularAppdemo/main.954e66096a8c863a96f6.js 0:34269 "ERROR" "Parameter is not a number!"

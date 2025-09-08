@@ -1,0 +1,1 @@
+{"uuid":"6d984f35-019e-454f-bdaa-8fbe19bfda72","name":"RestAssured Farmework","children":["a739e3f8-0f4b-45a5-a04d-56f3a9319d53"],"befores":[{"name":"setupData","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1757248186100,"stop":1757248186300}],"afters":[],"start":1757248186074,"stop":1757248189141}
