@@ -1,14 +1,11 @@
 package TestComp;
 
 import PageObjects.LandingPage;
-//import com.aventstack.extentreports.ExtentReports;
-//import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -20,7 +17,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
@@ -117,19 +113,5 @@ public class BaseTest {
             System.out.println("Could not capture and attach screenshot: " + e.getMessage());
         }
     }
-
-    //Extent Reports
-//    public ExtentReports getReportObject() {
-//
-//        String path = System.getProperty("user.dir") + "//Reports//index.html";
-//        ExtentSparkReporter reporter = new ExtentSparkReporter(path);
-//        reporter.config().setReportName("Report Name");
-//        reporter.config().setDocumentTitle("Document Title");
-//
-//        ExtentReports extent = new ExtentReports();
-//        extent.attachReporter(reporter);
-//        extent.setSystemInfo("Tester", "khaled");
-//        return extent;
-//    }
 
 }
